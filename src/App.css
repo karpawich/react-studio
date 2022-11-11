@@ -1,9 +1,17 @@
 /* Add styling for your page here */
 
 .App {
-
+  display: flex;
 }
 
 .BakeryItem {
-  
+  width: 200px;
+  margin-bottom: 50px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.BakeryItem > * {
+  width: 100%;
 }
