@@ -28,7 +28,7 @@ function App() {
 
    let totalCount = 0;
    Object.keys(cart).forEach((key) => {
-    totalCount += cart[key].price
+    totalCount += cart[key].price * cart[key].i
    })
 
   return (
